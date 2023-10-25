@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF8">
+    <link rel="stylesheet" href="style.css">
+    <img src="job.jpg" width="100" height="60">
+    <img src="Ensias.png" width="100" height="60" align="right">
+    <title>POO</title>
+</head>
+
+<body>
+    <a href="Home.html">Home</a>
+    <h1 align="center">Programmation Orientée Objet (POO) </h1>
+    <h2>Qu'est-ce que la Programmation Orientée Objet (POO)?</h2>
+    <p>La programmation orientée objet (POO) est un paradigme de programmation qui repose sur le concept d'objets. Les
+        objets sont des instances de classes, et la POO permet de modéliser des entités du monde réel sous forme
+        d'objets.</p>
+
+    <h2>Principes de la POO</h2>
+    <ul>
+        <li>Encapsulation : Les données et les méthodes sont regroupées dans des classes et cachées à l'extérieur.</li>
+        <li>Héritage : Les classes peuvent hériter des propriétés et des méthodes d'autres classes.</li>
+        <li>Polymorphisme : Les objets peuvent prendre différentes formes et répondre de manière polyvalente aux appels
+            de méthode.</li>
+        <li>Abstraction : Les détails complexes sont cachés pour simplifier la programmation.</li>
+    </ul>
+    <h2>Exemple de Code en POO</h2>
+    <code>
+class Personne {
+    constructor(nom, prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
+
+    direBonjour() {
+        console.log(`Bonjour, je m'appelle ${this.prenom} ${this.nom}`);
+    }
+}
+
+const personne1 = new Personne('Doe', 'John');
+personne1.direBonjour();
+</code>
+
+
+
+
+
+
+
+    <footer>
+        <p>Copyright © 2023 Sara El-Kassimi</p>
+    </footer>
+
+</body>
+
+</html>
